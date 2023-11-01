@@ -1,21 +1,20 @@
-name: data_source
+name: bookmark
 description: A new Flutter package project.
 version: 0.0.1
-homepage: sample.com.vn
+homepage:
 
 environment:
   sdk: '>=3.1.4 <4.0.0'
   flutter: ">=1.17.0"
-  
 
 dependencies:
   flutter:
     sdk: flutter
 
-  dio: ^4.0.6
-  connectivity_plus: ^2.3.6
-  equatable: ^2.0.3
-  logger: ^1.1.0
+  share_ui:
+    path: './../../share_ui'    
+  data_source:
+    path: './../../data_source'    
 
 dev_dependencies:
   flutter_test:
